@@ -1,0 +1,1272 @@
+/* Body */
+
+body {
+  background: #000000;
+}
+
+.body-content p {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Main Nav */ 
+
+._header_nav {
+  display: block;
+  width: 100%;
+  z-index: 1000;
+}
+
+._midPage {
+  float: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-top: 1.25rem;
+  margin-right: auto;
+  margin-bottom: 1.25rem;
+  margin-left: auto;
+  padding-left: 0.625rem;
+  overflow: hidden;
+}
+._navigation_link_2 {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: .1em;
+  padding-top: 0.625rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.625rem;
+  padding-left: 1.25rem;
+  color: #ffffff;
+}
+
+.-text a:hover{
+  color: #b9984a;
+  transition-duration: .125s;
+	
+}
+
+._link_Bottom {
+  display: inline-block;
+}
+
+._link_aboutGame {
+  display: inline-block;
+}
+
+._link_officialSite {
+  display: inline-block;
+}
+
+._link_items {
+  display: inline-block;
+}
+
+/* Mobile Toggle */
+
+._mobile_toggle_2 .-svg-inner {
+  padding-bottom: 100%;
+  position: relative;
+}
+._mobile_toggle_2 {
+  display: none;
+  width: 1.375em;
+  margin-top: 1.25rem;
+  margin-bottom: 0.8125rem;
+  margin-left: 1.375rem;
+ 
+}
+
+/* Topper and buttons*/ 
+
+._page_topper {
+  float: none;
+  display: block;
+  width: 100%;
+  vertical-align: top;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 9.375rem;
+  padding-bottom: 9.375rem;
+  background-color: #b9984a;
+  background-position: center center;
+  background-size: cover;
+}
+._topper_buttons {
+  display: inline-block;
+  width: 90%;
+  vertical-align: top;
+  margin-top: 2%;
+  margin-right: auto;
+  margin-left: 32%;
+  max-width: 28.13rem;
+}
+._topper_buttons>.-widget:nth-child(2n+1) {
+  margin-top: .6em;
+  margin-right: 2.9%;
+  margin-bottom: .6em;
+  margin-left: 0;
+  width: 47.1%;
+  clear: left;
+  max-width: inherit
+}
+._topper_buttons>.-widget:nth-child(2n+2) {
+  margin-top: .6em;
+  margin-right: 0;
+  margin-bottom: .6em;
+  margin-left: 2.9%;
+  width: 47.1%;
+  clear: none;
+  max-width: inherit
+}
+._red_button {
+  font-family: "Yanone Kaffeesatz";
+  font-size: 1.2em;
+  text-align: center;
+  letter-spacing: .05em;
+  color: #ffffff;
+  background-color: #c91611;
+  border-radius: 1em;
+}
+._buy_oot {
+  float: none;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.25rem;
+}
+._buy_oot .-text {
+  min-width: 100%
+}
+._white_button {
+  font-family: "Yanone Kaffeesatz";
+  font-size: 1.2em;
+  text-align: center;
+  letter-spacing: .05em;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+._walkthrough {
+  float: none;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.25rem;
+}
+._walkthrough .-text {
+  min-width: 100%;
+}
+
+/* Evolution of Zelda */
+
+._evolution_of_games {
+  display: block;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #b9984a;
+}
+._evolution_text {
+  float: none;
+  display: block;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 75.000em;
+}
+
+._evolutionOfGames_Text {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  text-align: left;
+  letter-spacing: .01em;
+  color: #000000;
+  background-position: center center;
+  background-size: cover;
+}
+
+._evolutionOfZelda_paragraph {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 300;
+  font-size: 2.5em;
+  line-height: 1.45em;
+  text-align: left;
+  letter-spacing: .05em;
+  color: #292c31;
+}
+
+._evolution_title_text {
+  float: none;
+  display: block;
+  max-width: 37.500em;
+}
+
+/* About Section */
+
+._about_main_container {
+  float: none;
+  display: block;
+  width: 100%;
+  vertical-align: top;
+  margin-top: 1.25rem;
+}
+
+._about_main_container>.-widget:nth-child(2n+1) {
+  margin-top: 0;
+  margin-right: 3.3%;
+  margin-bottom: 0;
+  margin-left: 0;
+  width: 46.7%;
+  clear: left;
+  max-width: inherit
+}
+
+._about_main_container>.-widget:nth-child(2n+2) {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 3.3%;
+  width: 46.7%;
+  clear: none;
+  max-width: inherit
+}
+
+._about_p_2_container {
+  float: none;
+  display: block;
+}
+
+._about_p1_container {
+  float: none;
+  display: block;
+}
+
+._about_the_game {
+  float: none;
+  display: block;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+
+._about_container {
+  float: none;
+  display: block;
+  width: 90%;
+  vertical-align: top;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+  max-width: 75.000em;
+}
+
+._about_container>.-widget:nth-child(2n+1) {
+  margin-top: 1em;
+  margin-right: 1%;
+  margin-bottom: 1em;
+  margin-left: 0;
+  width: 49%;
+  clear: left;
+  max-width: inherit;
+}
+
+._about_container>.-widget:nth-child(2n+2) {
+  margin-top: 1em;
+  margin-right: 0;
+  margin-bottom: 1em;
+  margin-left: 1%;
+  width: 49%;
+  clear: none;
+  max-width: inherit;
+}
+
+._about_text {
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+._redLinks_About_Section {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 300;
+  font-size: 1em;
+  font-style: italic;
+  text-align: left;
+  letter-spacing: .05em;
+  color: #c91611;
+}
+
+._link_is_main_hero {
+  float: none;
+  display: block;
+  vertical-align: top;
+  margin-top: 0.4375rem;
+}
+
+._this_boys_name {
+  float: none;
+  display: block;
+  line-height: inherit;
+  vertical-align: top;
+  margin-top: 0.4375rem;
+  }
+
+._in_the_forest {
+  float: none;
+  display: block;
+  line-height: inherit;
+  vertical-align: top;
+  margin-top: 1.25rem;
+  }
+
+._noFairy_Title {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 300;
+  font-size: 1.8em;
+  line-height: 1.4em;
+  text-align: left;
+  letter-spacing: .01em;
+  color: #000000;
+}
+
+._the_boy_without {
+  float: none;
+  font-weight: bold;
+  display: block;
+  vertical-align: top;
+  margin-top: 1.875rem;
+}
+
+._aboutOoT_paragraph {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  text-align: left;
+  letter-spacing: .01em;
+  color: #000000;
+}
+
+._main_text {
+  float: none;
+  display: block;
+}
+
+/* Triforce Image */
+
+._triforcefull_img {
+  float: none;
+  display: block;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-image: url(../images/thumbnail/526px-the-legend-of-zelda-svg_1.png_526x313.png);
+  background-position: center center;
+  background-size: contain;
+  background-attachment: scroll;
+  min-height: 25.6875em;
+}
+
+/* Footer Links and Copyright */
+
+._footer {
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  background-color: #ffffff;
+  min-height: 3.25em
+}
+
+.-copyright_footer_text {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 100;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-align: center;
+  letter-spacing: .05em;
+  color: #cbcbcb;
+}
+
+._copyright {
+  float: none;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+._copyright .-text {
+  min-width: 100%;
+}
+
+._footer_links_container {
+  float: none;
+  display: inline-block;
+  width: 90%;
+  vertical-align: top;
+  margin-top: 0rem;
+  margin-right: auto;
+  margin-bottom: 0.625rem;
+  margin-left: 32%;
+  max-width: 31.250em;
+}
+
+._footer_links_container>.-widget:nth-child(4n+1) {
+  margin-top: .6em;
+  margin-right: 1%;
+  margin-bottom: .6em;
+  margin-left: 1%;
+  width: 23%;
+  clear: left;
+  max-width: inherit
+}
+
+._footer_links_container>.-widget:nth-child(4n+2) {
+  margin-top: .6em;
+  margin-right: 1%;
+  margin-bottom: .6em;
+  margin-left: 1%;
+  width: 23%;
+  clear: none;
+  max-width: inherit
+}
+
+._footer_links_container>.-widget:nth-child(4n+3) {
+  margin-top: .6em;
+  margin-right: 1%;
+  margin-bottom: .6em;
+  margin-left: 1%;
+  width: 23%;
+  clear: none;
+  max-width: inherit
+}
+
+._footer_links_container>.-widget:nth-child(4n+4) {
+  margin-top: .6em;
+  margin-right: 1%;
+  margin-bottom: .6em;
+  margin-left: 1%;
+  width: 23%;
+  clear: none;
+  max-width: inherit
+}
+
+._footer_links {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 300;
+  font-size: 1.3em;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: .01em;
+  color: #000000;
+}
+
+._nintendo_link {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2rem;
+}
+
+._instagram_link {
+  display: inline-block;
+  vertical-align: top;
+}
+
+._twitter_link {
+  display: inline-block;
+  vertical-align: top;
+}
+
+._facebook_link {
+  display: inline-block;
+  vertical-align: top;
+}
+
+._links_fav_items {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #c91611;
+}
+
+/* Fave Items */
+
+._item_descriptions {
+  float: none;
+  display: inline-block;
+  width: 90%;
+  vertical-align: top;
+  margin-top: -0.75rem;
+  margin-right: auto;
+  margin-left: 4.98%;
+  padding-top: 0.625rem;
+  max-width: 75.000em;
+}
+
+._item_descriptions>.-widget:nth-child(3n+1) {
+  margin-top: .6em;
+  margin-right: 1%;
+  margin-bottom: .6em;
+  margin-left: 1%;
+  width: 31.3333333333%;
+  clear: left;
+  max-width: inherit
+}
+
+._item_descriptions>.-widget:nth-child(3n+2) {
+  margin-top: .6em;
+  margin-right: 1%;
+  margin-bottom: .6em;
+  margin-left: 1%;
+  width: 31.3333333333%;
+  clear: none;
+  max-width: inherit
+}
+
+._item_descriptions>.-widget:nth-child(3n+3) {
+  margin-top: .6em;
+  margin-right: 1%;
+  margin-bottom: .6em;
+  margin-left: 1%;
+  width: 31.3333333333%;
+  clear: none;
+  max-width: inherit
+}
+
+._item_paragraphs {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 300;
+  font-size: 1.3em;
+  line-height: 1.4em;
+  text-align: center;
+  color: #ffffff;
+}
+
+._rupees_text {
+  float: none;
+  display: block;
+  width: 90%;
+  margin-top: 1.25rem;
+  margin-right: auto;
+  margin-left: auto
+}
+
+._rupees_text .-text {
+  min-width: 100%
+}
+
+._item_Headings {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 100;
+  font-size: 1.7em;
+  line-height: 1.45em;
+  text-align: center;
+  letter-spacing: .05em;
+  color: #ffffff;
+}
+
+._rupees_title {
+  float: none;
+  display: block;
+  margin-top: 0.9375rem;
+}
+
+._hylian_shield_title {
+  float: none;
+  display: block;
+  margin-top: 0.9375rem;
+}
+
+._master_sword_text {
+  float: none;
+  display: block;
+  width: 90%;
+  margin-top: 1.25rem;
+  margin-right: auto;
+  margin-left: auto
+}
+
+._master_sword_text .-text {
+  min-width: 100%
+}
+
+._master_sword_title {
+  float: none;
+  display: block;
+  margin-top: 0.9375rem;
+}
+
+._its_not_safe {
+  float: none;
+  display: block;
+  width: 90%;
+  margin-top: 1.25rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 1rem;
+  max-width: 37.500em;
+}
+._its_not_safe .-text {
+  min-width: 100%
+}
+
+._main_title {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 300;
+  font-size: 3em;
+  text-align: center;
+  letter-spacing: .05em;
+  color: #ffffff;
+}
+
+._main_title {
+  float: none;
+  display: block;
+  width: 90%;
+  vertical-align: top;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 37.500em;
+}
+
+._main_title .-text {
+  min-width: 100%
+}
+
+/* For SVG imgs */
+
+._svg {
+  width: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 5rem;
+}
+
+._svg .-svg-inner {
+  padding-bottom: 100%;
+  position: relative;
+}
+
+._master_sword_img .-svg-inner {
+  padding-bottom: 100%;
+  position: relative;
+}
+
+._master_sword_img {
+  display: inline-block;
+  width: 9.938em;
+  vertical-align: top;
+  margin-right: auto;
+  margin-left: 12.89%;
+  background-repeat: no-repeat;
+  background-image: url(../images/thumbnail/mastersword-oot_1.png_461x499.png);
+  background-position: center center;
+  background-size: contain;
+  min-height: 14rem;
+}
+
+._hylian_shield_img .-svg-inner {
+  padding-bottom: 100%;
+  position: relative
+}
+
+._hylian_shield_img {
+  display: inline-block;
+  width: 9.938em;
+  vertical-align: top;
+  margin-top: .19rem;
+  margin-right: auto;
+  margin-left: 15.91%;
+  background-repeat: no-repeat;
+  background-image: url(../images/thumbnail/hylianshield.png_819x976.png);
+  background-position: center center;
+  background-size: contain;
+  min-height: 14rem;
+}
+
+._rupee_img .-svg-inner {
+  padding-bottom: 100%;
+  position: relative
+}
+
+._rupee_img {
+  display: inline-block;
+  width: 9.938em;
+  vertical-align: top;
+  margin-top: 0rem;
+  margin-right: auto;
+  margin-left: 15.2%;
+  background-repeat: no-repeat;
+  background-image: url(../images/thumbnail/rupees.png_1152x1024.png);
+  background-position: center center;
+  background-size: contain;
+  min-height: 14rem;
+}
+
+._hylian_shield_text {
+  float: none;
+  display: block;
+  width: 90%;
+  margin-top: 0.9375rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+._hylian_shield_text .-text {
+  min-width: 100%;
+
+}
+
+/* Footer and bottom of page */
+
+._footer_nav {
+  width: 100%;
+  background-color: #000000;
+  z-index: 1000;
+}
+
+._bottomLink_Div {
+  float: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-top: 1.25rem;
+  margin-right: auto;
+  margin-bottom: 1.25rem;
+  margin-left: auto;
+  padding-left: 0.625rem;
+  overflow: hidden;
+}
+
+._toTheTop_Link {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 600;
+  font-size: 1.3em;
+  line-height: 1.35em;
+  text-align: center;
+  letter-spacing: .01em;
+  color: #ffffff;
+}
+
+._link_toTheTop {
+  display: inline-block;
+  padding-top: 0.625rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.625rem;
+  padding-left: 1.25rem;
+}
+
+._mobile_toggle .-svg-inner {
+  padding-bottom: 84.15300546448087%;
+  position: relative;
+}
+
+._mobile_toggle {
+  display: none;
+  width: 1.375em;
+  margin-top: 1.25rem;
+  margin-bottom: 0.8125rem;
+  margin-left: 1.25rem;
+}
+
+._image {
+  display: block;
+  width: 100%;
+  vertical-align: top;
+  margin-top: 0rem;
+  margin-right: auto;
+  margin-left: 12%;
+  background-repeat: no-repeat;
+  background-image: url(../images/thumbnail/ootlogo.png_500x240.png);
+  background-position: center center;
+  background-size: contain;
+  background-attachment: scroll;
+  min-height: 15rem;
+  max-width: 64.000em;
+}
+
+/* @media screen for scalable responsive site */ 
+
+@media screen and (max-width: 1024px) {
+  ._footer_links_container {
+    margin-right: 0;
+    margin-left: 24.9%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  ._facebook_link {
+    margin-right: 0;
+    margin-left: -1.3%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  ._image {
+    margin-right: 0;
+    margin-left: 4.2%;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._header_nav {
+    padding-top: 0;
+    padding-bottom: 0.4375rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._midPage {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    max-height: 0;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._navigation_link_2 {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._link_aboutGame {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._link_Bottom {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._mobile_toggle_2 {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._topper_buttons {
+    margin-right: 0;
+    margin-left: 23.7%;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._link_officialSite {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._about_main_container>.-widget:nth-child(1n+1) {
+    margin-top: 1em;
+    margin-right: 0;
+    margin-bottom: 1em;
+    margin-left: 0;
+    width: 100%;
+    clear: left;
+    max-width: inherit;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._about_container>.-widget:nth-child(1n+1) {
+    margin-top: 1em;
+    margin-right: 0;
+    margin-bottom: 1em;
+    margin-left: 0;
+    width: 100%;
+    clear: left;
+    max-width: inherit;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._footer_links_container {
+    width: 69.69%;
+    margin-left: 18.22%;
+    padding-right: 5px;
+    min-height: 2.88rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._item_descriptions {
+    display: block;
+    margin-top: 1.88rem;
+    margin-left: 5.52%;
+  }
+  ._item_descriptions>.-widget:nth-child(1n+1) {
+    margin-top: 1em;
+    margin-right: 0;
+    margin-bottom: 1em;
+    margin-left: 0;
+    width: 100%;
+    clear: left;
+    max-width: inherit;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._its_not_safe {
+    margin-right: 0;
+    margin-left: 10.9124835742444%;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._master_sword_img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 0;
+    margin-left: 11.69%;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._hylian_shield_img {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: .19rem;
+    margin-right: 0;
+    margin-left: 7.6%;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._rupee_img {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: .19rem;
+    margin-right: 0;
+    margin-left: 7.21%;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._footer_nav {
+    padding-top: 0;
+    padding-bottom: 0.4375rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._bottomLink_Div {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    max-height: 0;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._navigation_link {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._link_toTheTop {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._mobile_toggle {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  ._link_items {
+    display: block;
+  }
+}
+@media screen and (max-width: 480px) {
+  ._page_topper {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  ._topper_buttons {
+    margin-left: 5.2%;
+  }
+  ._topper_buttons>.-widget:nth-child(1n+1) {
+    margin-top: .6em;
+    margin-right: 0;
+    margin-bottom: .6em;
+    margin-left: 0;
+    width: 100%;
+    clear: left;
+    max-width: inherit;
+  }
+}
+@media screen and (max-width: 480px) {
+  ._footer_links_container {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: .63rem;
+  }
+  ._footer_links_container>.-widget:nth-child(1n+1) {
+    margin-top: .6em;
+    margin-right: 1%;
+    margin-bottom: .6em;
+    margin-left: 1%;
+    width: 98%;
+    clear: left;
+    max-width: inherit;
+  }
+}
+@media screen and (max-width: 480px) {
+  ._item_descriptions {
+    margin-top: -2rem;
+    margin-left: 5.5%;
+  }
+}
+@media screen and (max-width: 480px) {
+  ._item_Headings {
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 480px) {
+  ._its_not_safe {
+    margin-left: 5.7124835742444%;
+  }
+}
+@media screen and (max-width: 480px) {
+  ._main_title {
+    font-size: 1.7em;
+  }
+}
+@media screen and (max-width: 480px) {
+  ._master_sword_img {
+    display: inline-block;
+    width: 119px;
+    vertical-align: top;
+    margin-top: 1rem;
+    margin-left: 10.29%;
+  }
+}
+@media screen and (max-width: 480px) {
+  ._hylian_shield_img {
+    display: inline-block;
+    width: 119px;
+    vertical-align: top;
+    margin-top: 1rem;
+    margin-left: 1.98%;
+  }
+}
+@media screen and (max-width: 480px) {
+  ._rupee_img {
+    display: inline-block;
+    width: 118px;
+    vertical-align: top;
+    margin-top: 1rem;
+    margin-left: 1.56%;
+  }
+}
+@media screen and (max-width: 480px) {
+  ._image {
+    width: 85.67%;
+    margin-top: 2rem;
+    margin-left: 7.36%;
+    min-height: 13rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  ._about_text {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  ._triforcefull_img {
+    width: 100.24%;
+    min-height: 17.38em;
+  }
+}
+@media screen and (max-width: 320px) {
+  ._item_descriptions {
+    margin-top: -3rem;
+    margin-left: 5.43%;
+  }
+  ._item_descriptions>.-widget:nth-child(1n+1) {
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 98.0%;
+    clear: left;
+    max-width: inherit;
+  }
+}
+@media screen and (max-width: 320px) {
+  ._master_sword_img {
+    display: inline-block;
+    width: 91px;
+    vertical-align: top;
+    margin-top: -1rem;
+    margin-left: 8.59%;
+  }
+}
+@media screen and (max-width: 320px) {
+  ._hylian_shield_img {
+    display: inline-block;
+    width: 87px;
+    vertical-align: top;
+    margin-top: -1rem;
+    margin-left: -1.7%;
+  }
+}
+@media screen and (max-width: 320px) {
+  ._rupee_img {
+    display: inline-block;
+    width: 83px;
+    vertical-align: top;
+    margin-top: -1rem;
+    margin-left: .22%;
+  }
+}
+@media screen and (max-width: 320px) {
+  ._item_Headings p {
+    font-size: .9em;
+  }
+}
+@media screen and (max-width: 320px) {
+  ._item_Headings p {
+    font-size: .8em;
+  }
+}
+@media screen and (max-width: 320px) {
+  ._item_Headings p {
+    font-size: .7em;
+  }
+}
+
+/* Links */ 
+
+._link_toTheTop {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._link_toTheTop:hover {
+  color: #c91611;
+  transition-duration: .125s;
+}
+
+._nintendo_link {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._nintendo_link:hover {
+  color: #c91611;
+  transition-duration: .125s;
+}
+
+._instagram_link {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._instagram_link:hover {
+  color: #c91611;
+  transition-duration: .125s;
+}
+
+._twitter_link {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._twitter_link:hover {
+  color: #c91611;
+  transition-duration: .125s;
+}
+
+._facebook_link {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._facebook_link:hover {
+  color: #c91611;
+  transition-duration: .125s;
+}
+
+._link_is_main_hero {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._link_is_main_hero:hover {
+  color: #b9984a;
+  transition-duration: .125s;
+}
+
+._this_boys_name {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._this_boys_name:hover {
+  color: #b9984a;
+  transition-duration: .125s;
+}
+
+._in_the_forest {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._in_the_forest:hover {
+  color: #b9984a;
+  transition-duration: .125s;
+}
+
+._link_Bottom {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._link_Bottom:hover {
+  color: #b50000;
+  transition-duration: .125s;
+}
+
+._header_nav {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._header_nav:hover {
+  color: #a70000;
+  transition-duration: .125s;
+}
+
+._buy_oot {
+  transition-property: color, background-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._buy_oot:hover {
+  color: #c91611;
+  background-color: white;
+  transition-duration: .125s;
+}

@@ -1,0 +1,60 @@
+/* Sarah R. Greenhill - Week 1 DWS2 - Project 1 MOBILE*/
+
+/*Sarah Greenhill - Week 1 DWS2 - Project 1 */ 
+
+body{
+	background: #eeb6d8;
+	font: 100%/1.5 "Helvetica", Arial, Georgia;
+	max-width: 960px;
+	margin: 36px auto;
+}
+
+#wrapper{
+	width: 100%; /* 900px = this is the main container so you can put 100%*/
+	margin: 0 auto;
+	overflow: hidden;
+	border: 1px solid #000000;
+	
+}
+
+/*divide padding (target) by the width of the element it is in (context)*/
+h1{
+	padding: 0 1.6666667%; /* 15px / 900 == .16666667 */
+	font-weight: normal;
+	font-size: 1.5em; /*This is the amount of pixels you want divided by the max percentage. Default is 16 so this would be 24px / 16px = 1.5 em's */ 
+	color: #000000; 
+	
+}
+
+/* target element divided by the context(container) = the result in em or percentage*/ 
+
+p{
+	font-size: 1.0600707em; /*This is 6px*/ 
+	
+}
+
+/* divide 566 / 900 = .628888889 ==  62.8888889%*/
+/*divide margins (target) by its parent element (context) so 10px == 10 / 900*/
+section{
+	float: left;
+	width: 62.8888889%; /* 566px */
+}
+
+/* divide 331 / 900 = .31777778 ==  31.777778% move it two decimal points over to create the percentage, do not round up or down*/
+aside{
+	float: right;
+	width: 36.777778%; /* 331px */
+	
+}
+
+#imageOneContainer{
+	border: 2px solid #000000;
+	width: 44.169611% /* width of image 250 / 566 */
+	
+}
+
+#imageOneContainer img{
+	
+	max-width: 100%; 
+}
+
