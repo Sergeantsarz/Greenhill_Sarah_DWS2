@@ -1,0 +1,434 @@
+/* This is my custom CSS file for Bootstrap */ 
+/* Sarah R. Greenhill */ 
+
+
+body {
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.glyphicon{
+	color: #801cc3;
+}
+
+/* NO SPACE - both classes applied to the same element */
+/*Follow TRBL to "stay out of trouble"*/
+
+.pull-right.img-responsive{
+	margin: 0 0 1em 1em;
+}
+
+.heart{
+	margin-top: 3em;
+	
+}
+
+/* Article Buttons */
+
+.btn-primary{
+	color: #ffffff;
+	background-color: #c108ca;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+	color: #ffffff;
+	background-color: #e72f82;
+	border-color: #ebccd1;
+}
+
+/* Jumbotron */
+
+.jumbotron{
+	background-image: url(../img/gayFlag.png);
+	margin-bottom: 0px;
+}
+
+.jumbotron h1{
+    color: #ffffff;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+
+}
+
+.jumbotron h2{
+	text-decoration: line-through;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+	color: #ffffff;
+    text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+/* Panels */
+
+.panel{
+	margin-top: .9em;
+}
+
+.panel-heading h4 {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+
+/* right logo */
+
+
+
+/* Contact Form */
+
+.contact {
+	text-align: center;
+	margin: 0 auto;
+}
+.contact h3 {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 3.2em;
+	padding: 0;
+	width: 62%;
+	margin: 1% auto 0;
+	color: #a54253;
+}
+
+.contact p {
+  	margin-bottom: 1em;
+  	font-size: 1.3em;
+  	color: #a54253;
+  	text-align: center;
+}
+
+ul.form li {
+  	list-style-type: none;
+  	border: .25em solid #ebccd1;
+  	width: 100%;
+  	margin: 1% auto 0;
+  	color: #801cc3;
+}
+input.text {
+  	border: .063em solid #801cc3;
+  	text-align: center;
+  	outline: none;
+  	width: 99%;
+  	margin: .2rem;
+  	padding: .8em;
+}
+textarea {
+  	outline: none;
+  	border: 1px solid #801cc3;
+  	text-align: center;
+  	padding: 1em;
+  	width: 99%;
+  	height: 12.5em;
+  	margin: .25rem;
+  	resize: none;
+}
+.sub-button {
+  	border: .25em solid #ebccd1;
+  	width: 20%;
+  	margin: 1% auto;
+}
+input[type="submit"] {
+  	border: .063em solid #801cc3;
+  	outline: none;
+  	background: none;
+  	color: #801cc3;
+  	margin: .25rem;
+  	padding: 1em 1em;
+  	font-size: 1em;
+  	width: 96%;
+}
+input[type="submit"]:hover {
+  	background: #9e07dd;
+  	color: #ffffff;
+  	transition:0.5s all;
+  	-webkit-transition:0.5s all;
+  	-moz-transition:0.5s all;
+  	-o-transition:0.5s all;
+  	-ms-transition:0.5s all;
+}
+.contact-form {
+  	margin-bottom: 1em;
+}
+
+.form-container p{
+	font-size: 1.1em;
+}
+
+.form-container{
+    margin-right: 1.6em;
+	
+	}
+
+/* Footer */
+
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: .03em solid #801cc3;
+	text-align: center;
+	font-size: .8em;
+	
+}
+
+/* Gallery */
+
+.b-link-stripe{
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	font-weight: 300;
+	overflow:hidden;
+}
+.b-link-stripe .b-wrapper{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	text-align:center;
+	color:#ffffff;
+	overflow:hidden;
+}
+.b-link-stripe .b-line{
+	position:absolute;
+	top:0;
+	bottom:0;
+	width:20%;
+	background:rgba(15, 207, 140, 0.9);
+	transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-ms-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	opacity:0;
+	visibility:hidden; /* lt-ie9 */
+}
+/*-----------------------------------------------------------------------------------*/
+/*	Animation effects
+/*-----------------------------------------------------------------------------------*/
+.b-animate-go{
+	text-decoration:none;
+}
+.b-animate {
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	visibility: hidden;
+	font-size: 15px;
+	font-weight: 400;
+	width: 40%;
+	line-height: 1.3em;
+	margin: 0 auto;
+	top: 35%;
+}
+.b-animate img{
+	margin-top:12%;
+	display: -webkit-inline-box;
+}
+/* lt-ie9 */
+.b-animate-go:hover .b-animate{
+	visibility:visible;
+}
+.b-from-left{
+	position:relative;
+	left:-100%;
+}
+.b-animate-go:hover .b-from-left{
+	left:0;
+}
+span.m_4{
+	font-size:14px;
+	font-weight:400;
+}
+p.m_5 {
+	margin: 2% auto 5%;
+	width: 70%;
+	color: #283A47;
+	font-size: 1.1em;
+	font-weight: 600;
+	line-height: 1.5em;
+	text-align: center;
+}
+.imageGal-top h3 {
+  	float: left;
+  	color: #324B73;
+  	font-weight: 900;
+  	font-size: 2em;
+  	margin-top: 2em;
+}
+/*--team--*/
+.span_1_of_4 {
+	width: 22.8%;
+}
+.col_1_of_4 {
+	display: block;
+	float: left;
+	margin: 1% 0 1% 2.6%;
+	background: #FFF;
+}
+.b-wrapper:hover {
+	background: rgba(49, 153, 255, 0.48);
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+/* lt-ie9 */
+.b-link-stripe:hover .b-line{
+	visibility:visible;
+}
+.b-link-stripe .b-line1{
+	left:0;
+}
+.b-link-stripe .b-line2{
+	left:20%;
+	transition-delay:0.1s !important;
+	-moz-transition-delay:0.1s !important;
+	-ms-transition-delay:0.1s !important;
+	-o-transition-delay:0.1s !important;
+	-webkit-transition-delay:0.1s !important;
+}
+.b-link-stripe .b-line3{
+	left:40%;
+	transition-delay:0.2s !important;
+	-moz-transition-delay:0.2s !important;
+	-ms-transition-delay:0.2s !important;
+	-o-transition-delay:0.2s !important;
+	-webkit-transition-delay:0.2s !important;
+}
+.b-link-stripe .b-line4{
+	left:60%;
+	transition-delay:0.3s !important;
+	-moz-transition-delay:0.3s !important;
+	-ms-transition-delay:0.3s !important;
+	-o-transition-delay:0.3s !important;
+	-webkit-transition-delay:0.3s !important;
+}
+.b-link-stripe .b-line5{
+	left:80%;
+	transition-delay:0.4s !important;
+	-moz-transition-delay:0.4s !important;
+	-ms-transition-delay:0.4s !important;
+	-o-transition-delay:0.4s !important;
+	-webkit-transition-delay:0.4s !important;
+}
+.b-link-stripe:hover .b-line{
+	opacity:1;
+}
+#LGBTQGallerylist .LGBTQGallery {
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	-o-box-sizing: border-box;
+  	width: 24%;
+  	display: none;
+  	float: left;
+  	overflow: hidden;
+  	margin: 0 1% 1% 0;
+    background: none;
+}
+.LGBTQGallery.icon.mix_all {
+  	padding: 0;
+}
+div#LGBTQGallerylist {
+  	padding: 0.5% 0px;
+}
+.imageGal h5 {
+  	color: #334D72;
+  	text-align: center;
+  	font-size: 2.6em;
+  	font-weight: 600;
+  	padding: 1em 0 0em;
+}
+.LGBTQGallery-wrapper {
+	overflow:hidden;
+	position: relative !important;
+	cursor:pointer;
+	}
+.LGBTQGallery img {
+	max-width:100%;
+	/*--position: relative;--*/
+	transition: all 300ms!important;
+	-webkit-transition: all 300ms!important;
+	-moz-transition: all 300ms!important;
+	}
+.LGBTQGallery .label {
+	position: absolute;
+	width: 100%;
+	height:40px;
+	bottom:-40px;
+	}
+.LGBTQGallery .label-bg {
+	background: #22B4B8;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+		}
+.LGBTQGallery .label-text {
+	color:#fff;
+	position: relative;
+	z-index:500;
+	padding:5px 8px;
+		}
+			
+.LGBTQGallery .text-category {
+	display:block;
+	font-size:9px;
+	font-size: 12px;
+	text-transform:uppercase;
+			}
+
+/* Media Query */
+
+@media all and (max-width: 2000px)
+{
+    .jumbotron{
+        height: 17.88em;
+    }
+    
+}
+
+@media all and (max-width: 1200px)
+{
+    .jumbotron h1{
+        font-size: 3em;
+    }
+    
+    .jumbotron h2{
+        font-size: 2em;
+    }
+    
+}
+
+@media all and (max-width: 500px)
+{
+    .jumbotron h1{
+        font-size: 2.2em;
+    }
+    
+    .jumbotron h2{
+        font-size: 1.8em;
+    }
+    
+    .form-container{
+    	margin-right: 1.6em;
+	
+	}
+	
+    .form-container h3{
+		font-size: 2.3em;
+	}
+}
+
