@@ -1,0 +1,229 @@
+/* CSS for Image Gallery */
+/* Sarah R. Greenhill */ 
+
+/* Gallery */
+
+.b-link-stripe{
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	font-weight: 300;
+	overflow:hidden;
+	}
+	
+.b-link-stripe .b-wrapper{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	text-align:center;
+	color:#ffffff;
+	overflow:hidden;
+	}
+	
+/* Small slidig boxes */
+
+.b-link-stripe .b-line{
+	position:absolute;
+	top:0;
+	bottom:0;
+	width:20%;
+	background:rgba(15, 207, 140, 0.9);
+	transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-ms-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	opacity:0;
+	visibility:hidden; /* lt-ie9 */
+}
+/*-----------------------------------------------------------------------------------*/
+/*	Animation effects
+/*-----------------------------------------------------------------------------------*/
+.b-animate-go{
+	text-decoration:none;
+}
+.b-animate {
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	visibility: hidden;
+	font-size: 15px;
+	font-weight: 400;
+	width: 40%;
+	line-height: 1.3em;
+	margin: 0 auto;
+	top: 35%;
+}
+
+.b-animate img{
+	margin-top:12%;
+	display: -webkit-inline-box;
+}
+
+.b-animate-go:hover .b-animate{
+	visibility:visible;
+}
+
+.b-from-left{
+	position:relative;
+	left:-100%;
+}
+
+.b-animate-go:hover .b-from-left{
+	left:0;
+}
+
+/* Headings */
+
+.container h3 {
+  	color: #09b850;
+  	font-weight: 900;
+  	font-family: cursive;
+  	text-align: center;
+  	font-size: 4.563em;
+}
+
+.container p {
+  	color: #000000;
+  	font-weight: 900;
+  	font-family: sans-serif;
+  	text-align: center;
+  	font-size: 1.5928em;
+  	margin-top: .835em;
+}
+
+/* Gallery Hover */
+
+.b-wrapper:hover {
+	background: rgba(0, 197, 0, 0.9);
+	transition: 0.8s all;
+	-webkit-transition: 0.8s all;
+	-o-transition: 0.8s all;
+	-moz-transition: 0.8s all;
+	-ms-transition: 0.8s all;
+	}
+	
+/* Gallery Container */
+
+.imageGal {
+	
+	margin: 3rem auto 1rem 6rem;
+	}
+
+/* lt-ie9 */
+.b-link-stripe:hover .b-line{
+	visibility:visible;
+	}
+.b-link-stripe .b-line1{
+	left:0;
+	}
+.b-link-stripe .b-line2{
+	left:20%;
+	transition-delay:0.1s !important;
+	-moz-transition-delay:0.1s !important;
+	-ms-transition-delay:0.1s !important;
+	-o-transition-delay:0.1s !important;
+	-webkit-transition-delay:0.1s !important;
+	}
+.b-link-stripe .b-line3{
+	left:40%;
+	transition-delay:0.2s !important;
+	-moz-transition-delay:0.2s !important;
+	-ms-transition-delay:0.2s !important;
+	-o-transition-delay:0.2s !important;
+	-webkit-transition-delay:0.2s !important;
+	}
+.b-link-stripe .b-line4{
+	left:60%;
+	transition-delay:0.3s !important;
+	-moz-transition-delay:0.3s !important;
+	-ms-transition-delay:0.3s !important;
+	-o-transition-delay:0.3s !important;
+	-webkit-transition-delay:0.3s !important;
+	}
+.b-link-stripe .b-line5{
+	left:80%;
+	transition-delay:0.4s !important;
+	-moz-transition-delay:0.4s !important;
+	-ms-transition-delay:0.4s !important;
+	-o-transition-delay:0.4s !important;
+	-webkit-transition-delay:0.4s !important;
+	}
+.b-link-stripe:hover .b-line{
+	opacity:1;
+	}
+#ACGalList .ACGallery {
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	-o-box-sizing: border-box;
+  	width: 24%;
+  	display: none;
+  	float: left;
+  	overflow: hidden;
+  	margin: 0 1% 1% 0;
+    background: none;
+	}
+
+.ACGallery.icon.mix_all {
+  	padding: 0;
+  	}
+
+div#ACGalList {
+  	padding: 0.5% 0px;
+  	}
+
+.imageGal h5 {
+  	color: #ffffff;
+  	text-align: center;
+  	font-size: 2.6em;
+  	font-weight: 600;
+  	padding: 1em 0 0em;
+  	}
+
+.ACGallery-wrapper {
+	overflow:hidden;
+	position: relative !important;
+	cursor:pointer;
+	}
+	
+.ACGallery img {
+	max-width:100%;
+	/*--position: relative;--*/
+	transition: all 300ms!important;
+	-webkit-transition: all 300ms!important;
+	-moz-transition: all 300ms!important;
+	}
+	
+.ACGallery .label {
+	position: absolute;
+	width: 100%;
+	height:40px;
+	bottom:-40px;
+	}
+	
+.ACGallery .label-bg {
+	background: #ffffff;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+		}
+		
+.ACGallery .label-text {
+	color:#ffffff;
+	position: relative;
+	z-index:500;
+	padding:5px 8px;
+		}
+			
+.ACGallery .text-category {
+	display:block;
+	font-size:9px;
+	font-size: 12px;
+	text-transform:uppercase;
+			}

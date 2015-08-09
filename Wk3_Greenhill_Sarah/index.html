@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>WoW Bug Reporter</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="wow.png" href="images/wow.png">
+		<link href="css/main.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" href="css/form.css" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body><!--Start Body-->
+		<header id="pageHeader"><!--Start Header-->
+			<hgroup>
+				<h1>Report a Bug</h1>
+				<h2>Report issues with WoW</h2>
+			</hgroup>
+		</header><!--End Header-->
+		<section id="content">
+			<article id="bugReport">
+				<section class="bugReport">
+					<h2>So something unexpected happened?</h2>
+
+					<form id="frmbugReport" class="group" action="http://www.desolve.org" method="post">
+						<fieldset title="About you">
+							<legend>About You</legend>
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" tabindex="10" placeholder="Your Name Goes Here" required>
+
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" tabindex="20" placeholder="Valid Email Address" required>
+
+							<label for="website">Server</label>
+							<input type="text" name="server" id="server" tabindex="30" placeholder="Server Name" required>
+		
+							<label for="checkbox">Region</label>
+							<input type="checkbox" name="NA" id="NA" value="North America"> North America
+							<br>
+							<input type="checkbox" name="LA" id="LA" value="Latin America"> Latin America
+							<br>
+							<input type="checkbox" name="EU" id="EU" value="Europe"> Europe
+							<br>
+		
+							<label for="date">Today's Date</label>
+							<input type="date" name="todaysDate" id="todaysDate" tabindex="50" placeholder="Today's Date" required>
+						</fieldset>
+	
+						<fieldset title="Issues">
+							<legend>Bug Types</legend>
+							<p>What kind of issue did you encounter?</p>
+		
+							<input type="radio" name="intent" value="suggest" id="stuck" tabindex="40">
+							<label for="stuck" class="inline">Got Stuck</label><br>
+
+							<input type="radio" name="intent" value="submit" id="bug" tabindex="50">
+							<label for="bug" class="inline">Bugged Quest</label><br>
+
+							<input type="radio" name="intent" value="comment" id="mobs" tabindex="60">
+							<label for="mobs" class="inline">Can't Attack Mobs</label><br>
+
+							<input type="radio" name="intent" value="friends" id="respawn" tabindex="70">
+							<label for="respawn" class="inline">Respawn Rate Too Low</label><br>
+							
+							<input type="radio" name="intent" value="friends" id="hacked" tabindex="70">
+							<label for="hacked" class="inline">My Account Was Hacked</label><br>
+							
+							<p>Are you horde or alliance?</p>
+						
+							 <select form_id="whatSide">
+								<option value="horde">Horde</option>
+								<option value="alliance">Alliance</option>
+							 </select> 
+
+							<label for="description">Describe what happened!</label>
+							<textarea id="description" name="description" tabindex="80" rows="7" placeholder="Tell us exactly what happend so that we can fix the problem."></textarea>
+							<input type="submit" name="submit" id="submit" value="Submit" tabindex="90">
+						</fieldset>
+					</form>
+				</section>
+			</article>
+
+			<footer id="pageFooter"><!--Start Footer-->
+				<form action="http://us.battle.net/wow/en/" method="post" class="search-form" target="_blank">
+					<label for="search">Search WoW's Main Site</label>
+					<input type="search" placeholder="Search" title="Search" class="q" name="search" id="search">
+					<input type="submit" class="submit" value="Go" name="submit" >
+				</form>
+				
+			<div style="transform: skewx(10deg) translatex(150px); transform-origin: bottom left;">
+				<iframe src="http://www.wowhead.com/" width="200" height="100"></iframe>
+			</div>
+				
+			<p class="copyright">&copy; 2015  * Sarah R. Greenhill</p>
+  
+  	</footer><!--End Footer-->
+  </body><!--End Body-->
+</html>

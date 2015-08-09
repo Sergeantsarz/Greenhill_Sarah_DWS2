@@ -1,0 +1,220 @@
+/* Reset */
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align:baseline;
+	font: inherit;
+}
+
+/* html5 display rule */
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(219,126,64);
+}
+
+a:hover {
+	color: #7B798F;
+	border-bottom: 0.063em solid #bf1bce;
+}
+
+html {
+	background: rgba(30, 56, 73, 1);
+}
+
+body {
+	font: 100% 'Raleway', Arial, Helvetica, sans-serif;
+	line-height: 1.2;
+	position: relative;
+	background: #ffffff;
+	color: rgba(255, 255, 255, 1);
+	font-weight:normal;
+	font-style:normal;
+}
+
+/* Layout */
+
+body {
+	width: 80.000em;
+	margin: 0 auto;
+}
+
+header {
+	height: 10.313em;
+}
+
+article {
+	float: left;
+	width: 53.125em;
+	padding-left: 3.125em;
+}
+
+aside {
+	float: right;
+	width: 17.500em;
+	padding-right: 3.125em;
+}
+
+#pageFooter {
+	clear:both;
+	overflow:hidden;
+	height: 9.375em;
+}
+
+/* Content */
+
+/* Header */
+header {
+	background: rgba(207, 145, 21, 0.9);
+	padding-top: 0.063em;
+	overflow: hidden;
+	margin-bottom: 1.2em;
+	padding-left: 3.125em;
+}
+
+header h1 {
+	font-size: 1.667em;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 3.250em;
+	line-height: 9.313em;
+	margin-right: 1em;
+	float: left;
+	padding-left: 5.875em;
+	background: url(../images/wow.png) no-repeat left center;
+	color: #ffffff;
+}
+
+header h2 {
+	font-style: italic;
+	font-weight:normal;
+	font-size: 1.4em;
+	color: #ffffff;
+	float: left;
+	text-transform: lowercase;
+	letter-spacing:.1em;
+	line-height: 10.313em;
+
+}
+header a, header a:hover {
+	color: #fff;
+	border: none;
+}
+
+/* Article */
+article section {
+	margin-bottom: 2em;
+}
+
+article h1, article h2, article h3 {
+	font-family: 'Raleway', Georgia, Times, serif;
+	position: absolute;
+}
+
+article > h1 {
+	font-size: 1.8em;
+	margin-bottom: 1.5em;
+	padding-left: 1em;
+}
+
+article h2 {
+	font-size: 1.4em;
+	margin-top: 1.5em;
+	padding-left: .5em;
+}
+
+article h2 a {
+	color: rgba(255, 255, 255, 1);
+	border: none;
+}
+
+article p {
+	font-size:1em;
+	margin: 1.2em 0;
+}
+article ul {
+	margin:0 0 1em 3.125em;
+}
+
+/*bugReport styles*/
+
+#bugReport h2 {
+	font-size: 1.4em;
+	float: none;
+	margin-bottom: 1em;
+}
+
+#bugReport h3 {
+	font-size: 1em;
+	margin: 1em 0 .5em;
+}
+
+#bugReport ul {
+	list-style: none;
+}
+
+#bugReport li {
+	display: inline-block;
+	width: 0.313em;
+	margin-bottom: 1em;
+	width: 14.063em;
+}
+
+#bugReport li a {
+	color:rgb(76, 67, 65);
+	border: none;
+	padding-left: 2.500em;
+	line-height: 3.125em;
+	font-size: 1.2em;
+	display:block;
+}
+
+#bugReport li a:hover {
+	color: rgb(123, 121, 143);
+}
+
+/*footer styles*/
+#pageFooter {
+	background: rgba(207, 145, 21, 0.9);
+	padding-top: 1.5em;
+}
+
+input[type="search"] {
+	width: 15.625em;
+}
+
+#pageFooter label {
+	display: block;
+	font-size: 1.2em;
+	text-transform:uppercase; 
+}
+
+#pageFooter p {
+	float: right;
+	clear: right;
+	margin-right: 3.9%;
+	text-align: right;
+}
+
+#pageFooter a {
+	display:block;
+	height: 6.250em;
+	line-height: 6.250em;
+	border: none;
+	color:rgb(76, 67, 65);
+	padding-left: 5.938rem;
+}
+
+#pageFooter form {
+	float: left;
+	margin-left: 3.125rem;
+	display: inline;
+}
+
+.copyright {
+	width: 18.750em;
+}

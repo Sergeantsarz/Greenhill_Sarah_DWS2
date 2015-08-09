@@ -1,0 +1,1006 @@
+/* Body */
+
+body {
+  background: #ffe6a7;
+}
+
+.body-content p {
+  margin-top: 2.1453rem;
+  margin-bottom: 2.1453rem;
+}
+
+/* Main Logo */
+
+.animalCrossingLogo {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../images/Animal-Crossing-Logo.png);
+  background-position: center center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  min-height: 21.01rem;
+  max-width: 65.000em;
+}
+
+/* Topper and buttons*/ 
+
+._page_topper {
+  float: none;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 4.375rem;
+  padding-bottom: 3.674rem;
+  background-color: #59e0ef;
+  background-image: url(../images/grass.png);
+  background-position: center center;
+  background-size: cover;
+  vertical-align: top;
+}
+._topper_buttons {
+  display: inline-block;
+  width: 100%;
+  margin-top: 1.975rem;
+  margin-right: auto;
+  margin-left: 37.4673rem;
+  vertical-align: top;
+  max-width: 28.13rem;
+}
+._topper_buttons>.-widget:nth-child(2n+1) {
+  margin-top: .6em;
+  margin-right: 2.9535%;
+  margin-bottom: .6em;
+  margin-left: 0;
+  width: 47.12579%;
+  clear: left;
+  max-width: inherit;
+}
+._topper_buttons>.-widget:nth-child(2n+2) {
+  margin-top: .6em;
+  margin-right: 0;
+  margin-bottom: .6em;
+  margin-left: 2.946%;
+  width: 47.12579%;
+  clear: none;
+  max-width: inherit;
+}
+.yellowButton {
+  font-family: 'Amatic SC', serif;
+  font-weight: 800;
+  font-size: 1.2em;
+  text-align: center;
+  letter-spacing: .078em;
+  color: #000000;
+  background-color: #f4c950;
+  border-radius: 1.566em;
+}
+._buyNL {
+  float: none;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.blueButton {
+  font-family: 'Amatic SC', serif;
+  font-size: 1.2em;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: .078em;
+  color: #000000;
+  background-color: #408ce8;
+  border-radius: 1.566rem;
+}
+._walkthrough {
+  float: none;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.25rem;
+}
+._walkthrough .-text {
+  min-width: 100%;
+}
+
+
+/* Main Nav */ 
+
+._header_nav {
+  display: block;
+  width: 100%;
+  z-index: 1000;
+  text-align: center;
+  background-color: #ffe6a7;
+}
+
+._midPage {
+  float: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin: 1.25643rem auto 1.25643rem auto;
+  overflow: hidden;
+}
+._navigation_link_2 {
+  font-family: 'Fontdiner Swanky', cursive;
+  font-weight: 600;
+  font-size: 1.111em;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: .1em;
+  padding-top: 0.625rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.625rem;
+  padding-left: 7.99929rem;
+  color: #000000;
+}
+
+.-text a:hover{
+  color: #2dba28;
+  transition-duration: .125s;
+	
+}
+
+._link_Bottom {
+  display: inline-block;
+}
+
+._link_aboutGame {
+  display: inline-block;
+}
+
+._ACNLofficialSite {
+  display: inline-block;
+}
+
+._AC_Explanation {
+  display: inline-block;
+}
+
+/* Mobile Toggle */
+
+._mobile_toggle_2 .-svg-inner {
+  padding-bottom: 100%;
+  position: relative;
+}
+._mobile_toggle_2 {
+  display: none;
+  width: 1.375em;
+  margin-top: 1.25rem;
+  margin-bottom: 0.8125rem;
+  margin-left: 1.375rem;
+ 
+}
+
+/* About Animal Crossing */
+
+._topAboutAC {
+  display: block;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #408ce8;
+}
+._AC_Text {
+  float: none;
+  display: block;
+  width: 90.482%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 75.000em;
+}
+
+._AC-Text {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 800;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  text-align: left;
+  letter-spacing: .01em;
+  color: #000000;
+  background-position: center center;
+  background-size: cover;
+}
+
+.AC_MainParagraph {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 800;
+  font-size: 2.5em;
+  line-height: 1.45em;
+  text-align: left;
+  letter-spacing: .05em;
+  color: #000000;
+}
+
+._AC_TitleText {
+  float: none;
+  display: block;
+  max-width: 37.500em;
+}
+
+.-text h2{
+  font-family: 'Fontdiner Swanky', cursive;
+  text-align: center;
+	
+}
+
+/* About Section */
+
+._about_main_container {
+  float: none;
+  display: block;
+  width: 100%;
+  vertical-align: top;
+  margin-top: 1.25rem;
+}
+
+._about_main_container>.-widget:nth-child(2n+1) {
+  margin-top: 0;
+  margin-right: 3.3%;
+  margin-bottom: 0;
+  margin-left: 0;
+  width: 46.7241%;
+  clear: left;
+  max-width: inherit;
+}
+
+._about_main_container>.-widget:nth-child(2n+2) {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 3.3268%;
+  width: 46.7457%;
+  clear: none;
+  max-width: inherit;
+}
+
+._about_p_2_container {
+  float: none;
+  display: block;
+}
+
+._about_p1_container {
+  float: none;
+  display: block;
+}
+
+._about_the_game {
+  float: none;
+  display: block;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+
+._about_container {
+  float: none;
+  display: block;
+  width: 100%;
+  vertical-align: top;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2.593rem;
+  background-color: #ffffff;
+  max-width: 95.000em;
+  border-radius: 1.563em;
+  border: 0.313em solid #8AC007;
+  padding: 0.313rem;
+  height: 33.125em; 
+}
+
+._about_container>.-widget:nth-child(2n+1) {
+  margin: 1.14em 1.006253% 1.14em 0;
+  width: 46.48915%;
+  clear: left;
+  max-width: inherit;
+}
+
+._about_container>.-widget:nth-child(2n+2) {
+  margin-top: 1em;
+  margin-right: 0;
+  margin-bottom: 1em;
+  margin-left: 1.157%;
+  width: 45.22246%;
+  clear: none;
+  max-width: inherit;
+}
+
+._about_text {
+  padding: 1.6261rem;
+}
+
+.aboutTheGame {
+  font-family: 'Amatic SC', serif;
+  font-weight: 800;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  text-align: left;
+  letter-spacing: .01em;
+  color: #000000;
+}
+
+.aboutTheGame h1{
+	font-family: 'Fontdiner Swanky', cursive;
+	
+}
+
+.aboutText {
+  float: none;
+  display: block;
+} 
+
+#townsfolk{
+	font-family: 'Fontdiner Swanky', cursive;
+}
+
+#about-animal-crossing .-text{
+	color: #000000;
+}
+
+/* Leaf */
+
+.acLeaf {
+  float: none;
+  display: block;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-image: url(../images/animal_crossing_leaf.png);
+  background-position: center center;
+  background-size: contain;
+  background-attachment: scroll;
+  min-height: 25.6875em;
+}
+
+/* Footer Links and Copyright */
+
+._footer {
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  background-color: #ffffff;
+  min-height: 3.25em
+}
+
+.-copyright_footer_text {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 800;
+  font-size: 1.246em;
+  line-height: 1.3783em;
+  text-align: center;
+  letter-spacing: .05em;
+  color: #cbcbcb;
+}
+
+._copyright {
+  float: none;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: -2.5452rem;
+}
+
+._copyright .-text {
+  min-width: 100%;
+}
+
+._footer_links_container {
+  float: none;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  margin-top: 0rem;
+  margin-right: auto;
+  margin-bottom: 0.625rem;
+  margin-left: 32.2672%;
+  max-width: 31.250em;
+}
+
+._footer_links_container>.-widget:nth-child(4n+1) {
+  margin-top: .6em;
+  margin-right: 1.361%;
+  margin-bottom: 0.6em;
+  margin-left: 1.5892%;
+  width: 23.44789%;
+  clear: left;
+  max-width: inherit
+}
+
+._footer_links_container>.-widget:nth-child(4n+2) {
+  margin-top: .6em;
+  margin-right: 1.46223%;
+  margin-bottom: .6em;
+  margin-left: 1.46223%;
+  width: 23.7433%;
+  clear: none;
+  max-width: inherit
+}
+
+._footer_links_container>.-widget:nth-child(4n+3) {
+  margin-top: .6em;
+  margin-right: 1.1%;
+  margin-bottom: .6em;
+  margin-left: 1.1%;
+  width: 23.45%;
+  clear: none;
+  max-width: inherit
+}
+
+._footer_links_container>.-widget:nth-child(4n+4) {
+  margin-top: .6em;
+  margin-right: 1.1%;
+  margin-bottom: .6em;
+  margin-left: 1.1%;
+  width: 23.689%;
+  clear: none;
+  max-width: inherit
+}
+
+._footer_links {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 800;
+  font-size: 1.3em;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: .01em;
+  color: #000000;
+}
+
+._nintendo_link {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2rem;
+}
+
+._tumblr_link {
+  display: inline-block;
+  vertical-align: top;
+}
+
+._twitter_link {
+  display: inline-block;
+  vertical-align: top;
+}
+
+._facebook_link {
+  display: inline-block;
+  vertical-align: top;
+}
+
+._links_fav_items {
+  padding-top: 1.453rem;
+  padding-bottom: 1.453rem;
+  background-color: #408ce8;
+}
+
+/* Video */
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 11rem;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Fave Items */
+
+._item_descriptions {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  margin: .7545rem auto 1.463rem 3.8452rem;
+  padding-top: 0.625rem;
+  max-width: 95.000em;
+}
+
+._item_descriptions>.-widget:nth-child(3n+1) {
+  margin-top: .6em;
+  margin-right: 1%;
+  margin-bottom: .6em;
+  margin-left: 1%;
+  width: 31.3333333333%;
+  clear: left;
+  max-width: inherit
+}
+
+._item_descriptions>.-widget:nth-child(3n+2) {
+  margin-top: .6em;
+  margin-right: 1%;
+  margin-bottom: .6em;
+  margin-left: 1%;
+  width: 31.3333333333%;
+  clear: none;
+  max-width: inherit
+}
+
+._item_descriptions>.-widget:nth-child(3n+3) {
+  margin-top: .6em;
+  margin-right: 1%;
+  margin-bottom: .6em;
+  margin-left: 1%;
+  width: 31.3333333333%;
+  clear: none;
+  max-width: inherit;
+}
+
+._item_paragraphs {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 800;
+  font-size: 1.3em;
+  line-height: 1.4em;
+  text-align: center;
+  color: #000000;
+}
+
+._table2-text {
+  float: none;
+  display: block;
+  width: 90%;
+  margin-top: 1.25rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+._table2-text .-text {
+  min-width: 100%
+}
+
+._item_Headings {
+  font-family: 'Fontdiner Swanky', cursive;
+  font-weight: 100;
+  font-size: 1.7em;
+  line-height: 1.45em;
+  text-align: center;
+  letter-spacing: .05em;
+  color: #000000;
+}
+
+._table2_Title {
+  float: none;
+  display: block;
+  margin-top: 0.9375rem;
+}
+
+._table1-text {
+  float: none;
+  display: block;
+  width: 90%;
+  margin-top: 1.25rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+._table1-text .-text {
+  min-width: 100%;
+}
+
+
+._main_title {
+  font-family: 'Fontdiner Swanky', cursive;
+  font-weight: 300;
+  font-size: 3em;
+  text-align: center;
+  letter-spacing: .05em;
+  color: #000000;
+}
+
+._main_title {
+  float: none;
+  display: block;
+  width: 90%;
+  vertical-align: top;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 37.500em;
+}
+
+._main_title .-text {
+  min-width: 100%
+}
+
+._table2-text {
+  float: none;
+  display: block;
+  width: 90%;
+  margin-top: 0.9375rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+._table2-text .-text {
+  min-width: 100%;
+
+}
+
+/* Footer and bottom of page */
+
+._footer_nav {
+  width: 100%;
+  background-color: #ffe6a7;
+  z-index: 1000;
+}
+
+._bottomLink_Div {
+  float: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 1.2556rem auto 2.2556rem auto;
+  padding-left: 0.625rem;
+  overflow: hidden;
+}
+
+._toTheTop_Link {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 800;
+  font-size: 2.3em;
+  line-height: 1.35em;
+  text-align: center;
+  letter-spacing: .0143em;
+  color: #000000;
+}
+
+._link_toTheTop {
+  display: inline-block;
+  padding: 0.625rem 1rem 0 .24635rem;
+}
+
+._mobile_toggle .-svg-inner {
+  padding-bottom: 84.15300546448087%;
+  position: relative;
+}
+
+._mobile_toggle {
+  display: none;
+  width: 1.375em;
+  margin-top: 1.25rem;
+  margin-bottom: 0.8125rem;
+  margin-left: 1.25rem;
+}
+
+/* Links */ 
+
+._link_toTheTop {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._link_toTheTop:hover {
+  color: #2dba28;
+  transition-duration: .125s;
+}
+
+._nintendo_link {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._nintendo_link:hover {
+  color: #2dba28;
+  transition-duration: .125s;
+}
+
+._tumblr_link {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._tumblr_link:hover {
+  color: #2dba28;
+  transition-duration: .125s;
+}
+
+._twitter_link {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._twitter_link:hover {
+  color: #2dba28;
+  transition-duration: .125s;
+}
+
+._facebook_link {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._facebook_link:hover {
+  color: #2dba28;
+  transition-duration: .125s;
+}
+
+._header_nav {
+  transition-property: color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._header_nav:hover {
+  color: #ffe6a7;
+  transition-duration: .125s;
+}
+
+._buyNL {
+  transition-property: color, background-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+._buyNL:hover {
+  color: #2dba28;
+  background-color: #408ce8;
+  transition-duration: .125s;
+}
+
+/* @media screen for scalable responsive site */ 
+
+@media screen and (max-width: 1024px) {
+
+  .animalCrossingLogo {
+    margin-right: 0;
+    margin-left: 4.2%;
+  }
+  
+  ._facebook_link {
+    margin-right: 0;
+    margin-left: -1.3%;
+  }
+  
+  ._footer_links_container {
+    margin-right: 0;
+    margin-left: 24.9%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  ._header_nav {
+    padding-top: 0;
+    padding-bottom: 0.4375rem;
+  }
+
+  ._midPage {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    max-height: 0;
+    overflow: hidden;
+  }
+  
+  ._navigation_link_2 {
+    text-align: left;
+  }
+  
+  ._link_aboutGame {
+    display: block;
+  }
+  
+  ._link_Bottom {
+    display: block;
+  }
+  
+  ._mobile_toggle_2 {
+    display: block;
+  }
+
+  ._topper_buttons {
+    margin-right: 0;
+    margin-left: 23.7%;
+  }
+
+  ._about_main_container>.-widget:nth-child(1n+1) {
+    margin-top: 1em;
+    margin-right: 0;
+    margin-bottom: 1em;
+    margin-left: 0;
+    width: 100%;
+    clear: left;
+    max-width: inherit;
+  }
+
+  ._about_container>.-widget:nth-child(1n+1) {
+    margin-top: 1em;
+    margin-right: 0;
+    margin-bottom: 1em;
+    margin-left: 0;
+    width: 100%;
+    clear: left;
+    max-width: inherit;
+  }
+
+  ._item_descriptions {
+    display: block;
+    margin-top: 1.88rem;
+    margin-left: 5.52%;
+  }
+  ._item_descriptions>.-widget:nth-child(1n+1) {
+    margin-top: 1em;
+    margin-right: 0;
+    margin-bottom: 1em;
+    margin-left: 0;
+    width: 100%;
+    clear: left;
+    max-width: inherit;
+  }
+  
+  ._bottomLink_Div {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    max-height: 0;
+    overflow: hidden;
+  }
+  
+  ._ACNLofficialSite {
+    display: block;
+  }
+  
+  ._AC_Explanation {
+    display: block;
+  }
+  
+  ._mobile_toggle {
+    display: block;
+  }
+  
+  ._link_toTheTop {
+    display: block;
+  }
+  
+  ._navigation_link {
+    text-align: left;
+  }
+  
+   ._footer_nav {
+    padding-top: 0;
+    padding-bottom: 0.4375rem;
+  }
+  
+  ._footer_links_container {
+    width: 69.69%;
+    margin-left: 18.22%;
+    padding-right: 5px;
+    min-height: 2.88rem;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .animalCrossingLogo {
+    width: 85.67%;
+    margin-top: 2rem;
+    margin-left: 7.36%;
+    min-height: 13rem;
+  }
+  
+  ._page_topper {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  ._main_title {
+    font-size: 1.7em;
+  }
+  
+  ._its_not_safe {
+    margin-left: 5.7124835742444%;
+  }
+  
+  ._item_Headings {
+    font-size: 1.3em;
+  }
+  
+  ._item_descriptions {
+    margin-top: -2rem;
+    margin-left: 5.5%;
+  }
+  
+  ._footer_links_container {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: .63rem;
+  }
+  ._footer_links_container>.-widget:nth-child(1n+1) {
+    margin-top: .6em;
+    margin-right: 1%;
+    margin-bottom: .6em;
+    margin-left: 1%;
+    width: 98%;
+    clear: left;
+    max-width: inherit;
+  }
+  
+  ._topper_buttons {
+    margin-left: 5.2%;
+  }
+  ._topper_buttons>.-widget:nth-child(1n+1) {
+    margin-top: .6em;
+    margin-right: 0;
+    margin-bottom: .6em;
+    margin-left: 0;
+    width: 100%;
+    clear: left;
+    max-width: inherit;
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+
+  .animalCrossingLogo {
+	width: 32%;
+	height: 10%;
+	max-height: 5em;
+	
+  }
+   ._item_Headings p {
+    font-size: .9em;
+  }
+
+  ._item_descriptions {
+    margin-top: -3rem;
+    margin-left: 5.43%;
+  }
+  ._item_descriptions>.-widget:nth-child(1n+1) {
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 98.0%;
+    clear: left;
+    max-width: inherit;
+  }
+  
+  .acLeaf {
+    width: 51%;
+    min-height: 17.38em;
+  }
+  
+  ._about_text {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+}
+
+
